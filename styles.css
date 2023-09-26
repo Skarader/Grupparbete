@@ -10,6 +10,45 @@ body {
 }
 
 /*main page saker*/
+
+.menu{
+  background-color: orange;
+  color:white; 
+  font-size: 1.5rem;
+  border:none;
+  cursor:pointer;
+  padding:1rem 1rem; 
+  border-radius: 2px;
+}
+
+.nav-menu{
+  position:relative;
+  display:inline-block;
+}
+.menu-content{
+  display:none;
+  position:absolute; 
+  background-color: white;
+  min-width:40px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+.menu-content a{
+  color:black; 
+  display:block;
+}
+
+.menu-content a:hover{
+  background-color:white; 
+}
+
+.nav-menu:hover .menu-content{
+  display:block;
+}
+
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -29,12 +68,6 @@ nav {
   justify-content: space-between;
 }
 
-.nav-container {
-  padding: 20px;
-  margin: 10px;
-
-  background-color: rgb(109, 103, 103);
-}
 .navbar a:hover {
   border-bottom: 2px white solid;
 }
@@ -64,42 +97,6 @@ h2 {
 }
 
 /*Content*/
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-}
-
-.grid-container li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nyhet {
-  color: black;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding: 20px 0;
-}
-.content {
-  max-width: 1100px;
-  margin: auto;
-}
-#nyhet1 {
-  grid-column-start: 1;
-}
-#nyhet2 {
-  grid-column-start: 2;
-}
-
-#nyhet3 {
-  grid-column-start: 3;
-}
 
 .main-recepies {
   display: flex;
@@ -161,6 +158,7 @@ h2 {
   font-size: 3rem;
   padding: 20px;
 }
+
 .test h1,
 .test2 h1,
 .test3 h1 {
@@ -173,17 +171,7 @@ h2 {
   border-bottom: 2px solid;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
 
-.grid-container img {
-  width: 100%;
-  height: 200px;
-  border: 10px;
-  border: black solid;
-}
 .main-recepies img {
   padding: 20px;
   width: 100%;
@@ -207,7 +195,7 @@ h2 {
 .vin {
   cursor: pointer;
 }
-/*content*/
+/*Footer*/
 
 .footer {
   width: 100%;
@@ -227,4 +215,19 @@ h2 {
   justify-self: flex-end;
   align-self: flex-end;
 }
-/*Footer*/
+
+@media only screen and (max-width:600px){
+
+  .logo{
+    font-size:1.5rem;
+  }
+
+  .mobile{
+    display:block;
+
+  }
+
+
+
+}
+
