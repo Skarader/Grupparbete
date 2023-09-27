@@ -101,6 +101,31 @@ h2 {
   justify-content: space-around;
   align-items: flex-start;
 }
+
+.main-recepies-desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.main-recepies-mobile {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .main-recepies-desktop {
+    display: none;
+  }
+
+  .main-recepies-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100;
+  }
+}
+
 .test,
 .test2,
 .test3 {
@@ -111,6 +136,24 @@ h2 {
   justify-content: center;
 
   color: black;
+  padding: 20px;
+}
+
+.test-mobile,
+.test-mobile2,
+.test-mobile3 {
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: black;
+  padding: 20px;
+}
+.page-title {
+  text-align: center;
+  font-size: 3rem;
   padding: 20px;
 }
 
