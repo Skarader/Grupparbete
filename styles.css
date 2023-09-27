@@ -11,43 +11,41 @@ body {
 
 /*main page saker*/
 
-.menu{
+.menu {
   background-color: orange;
-  color:white; 
+  color: white;
   font-size: 1.5rem;
-  border:none;
-  cursor:pointer;
-  padding:1rem 1rem; 
+  border: none;
+  cursor: pointer;
+  padding: 1rem 1rem;
   border-radius: 2px;
 }
 
-.nav-menu{
-  position:relative;
-  display:inline-block;
+.nav-menu {
+  position: relative;
+  display: inline-block;
 }
-.menu-content{
-  display:none;
-  position:absolute; 
+.menu-content {
+  display: none;
+  position: absolute;
   background-color: white;
-  min-width:40px; 
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index:1;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-.menu-content a{
-  color:black; 
-  display:block;
+.menu-content a {
+  color: black;
+  display: block;
 }
 
-.menu-content a:hover{
-  background-color:white; 
+.menu-content a:hover {
+  background-color: white;
 }
 
-.nav-menu:hover .menu-content{
-  display:block;
+.nav-menu:hover .menu-content {
+  display: block;
 }
-
-
 
 nav {
   display: flex;
@@ -128,7 +126,6 @@ h2 {
   border-bottom: 2px solid;
 }
 
-
 .main-recepies img {
   padding: 20px;
   width: 100%;
@@ -151,7 +148,19 @@ h2 {
 
 .vin {
   cursor: pointer;
+  background-color: white;
+  display: flex;
 }
+
+.vin-picture {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.vin-picture img {
+  width: 250px;
+}
+
 /*Footer*/
 
 .footer {
@@ -173,18 +182,12 @@ h2 {
   align-self: flex-end;
 }
 
-@media only screen and (max-width:600px){
-
-  .logo{
-    font-size:1.5rem;
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 1.5rem;
   }
 
-  .mobile{
-    display:block;
-
+  .mobile {
+    display: block;
   }
-
-
-
 }
-
