@@ -361,6 +361,9 @@ header {
   .individuellt-recept-title {
     text-align: center;
   }
+  .welcome {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
