@@ -164,7 +164,7 @@ header {
   justify-content: center;
 
   flex-wrap: wrap;
-  max-width: 70%;
+  width: 90%;
 
   padding: 2rem;
   margin: 0 auto;
@@ -177,8 +177,8 @@ header {
 }
 .last-2-cards {
   display: flex;
-  gap: 100px;
   justify-content: center;
+  gap: 100px;
 }
 .card {
   display: flex;
@@ -335,6 +335,7 @@ header {
   .first-2-cards,
   .last-2-cards {
     flex-direction: column;
+    min-width: 380px;
   }
   .footer-title {
     display: none;
@@ -345,6 +346,10 @@ header {
   .header-mobile {
     display: flex;
   }
+  .welcome-text {
+    width: 100%;
+    font-size: 1.5rem;
+  }
   .nyhets-container {
     max-width: 100%;
   }
@@ -352,7 +357,7 @@ header {
     flex-direction: column;
   }
   .individuellt-recept {
-    max-width: 100%;
+    max-width: 95%;
     font-size: 1rem;
   }
   .individuellt-recept img {
@@ -361,9 +366,8 @@ header {
   .individuellt-recept-title {
     text-align: center;
   }
-  .welcome-text {
-    max-width: 100%;
-    font-size: 1.5rem;
+  .card-picture img {
+    width: 350px;
   }
 }
 
@@ -373,4 +377,13 @@ header {
     left: 10px;
   }
 }
+@media (max-width: 400px) {
+  .footer {
+    justify-content: center;
+  }
+  .form-control {
+    display: none;
+  }
+}
+
 /*MEDIA QUERIES*/
