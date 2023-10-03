@@ -351,6 +351,16 @@ header {
   .nyheter {
     flex-direction: column;
   }
+  .individuellt-recept {
+    max-width: 80%;
+    font-size: 1rem;
+  }
+  .individuellt-recept img {
+    width: 100%;
+  }
+  .individuellt-recept-title {
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
