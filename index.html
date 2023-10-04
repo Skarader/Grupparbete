@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="hem.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="container flex">
+      <nav>
+        <a href="index.hthml"><h1 class="logo">MAT&VIN</h1></a>
+        <ul class="nav-list">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="kyckling.html">Kyckling</a></li>
+          <li><a href="fisk.html">Fisk</a></li>
+          <li><a href="kött.html">Kött</a></li>
+          <li><a href="wine.html">Vin</a></li>
+        </ul>
+        <div class="nav-menu mobile">
+          <button class="menu">Meny</button>
+          <div class="menu-content"> 
+            <a href="kyckling.html">Kyckling</a>
+            <a href="wine.html">Vin</a>
+            <a href="kött.html">Kött</a>
+            <a href="fisk.html">Fisk</a>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <div class="nyhet page-title">Nyheter</div>
+  <div class="content">
+    <div class="content-container">
+       <ul class="grid-container">
+        <h1>Kyckling</h1>
+        <h1>Fisk</h1>
+        <h1>Pasta</h1>
+        <li class="nyhet" id="nyhet1">
+          <a href="nykyckling.html">Ny kyckling!</a>
+         </li>
+         <li class="nyhet" id="nyhet2"><a href="nyfisk.html">Ny fisk!</a></li>
+         <li class="nyhet" id="nyhet3">
+          <a href="nypasta.html">Ny pasta!</a>
+         </li>
+         <li>
+          <a href="nykyckling.html"><img src="pictures/piripiri.png" /></a>
+         </li>
+         <li>
+          <a href="nyfisk.html"><img src="pictures/lax.png" /></a>
+         </li>
+        <li>
+          <a href="nypasta.html"><img src="pictures/gnocchi.png" /></a>
+        </li>
+
+      </ul>
+      <!--Mobile -->
+      <ul class="grid-container mobile">
+        <h1>Kyckling</h1>
+         <li class="nyhet" id="nyhet1">
+          <a href="nykyckling.html">Ny kyckling!</a>
+         </li>
+         <li>
+          <a href="nykyckling.html"><img src="pictures/piripiri.png" /></a>
+         </li>
+         <h1>Fisk</h1>
+         <li class="nyhet" id="nyhet2"><a href="nyfisk.html">Ny fisk!</a></li>
+         <li>
+          <a href="nyfisk.html"><img src="pictures/lax.png" /></a>
+         </li>
+         <h1>Pasta</h1>
+         <li class="nyhet" id="nyhet3">
+          <a href="nypasta.html">Ny pasta!</a>
+         </li>
+         <li>
+          <a href="nypasta.html"><img src="pictures/gnocchi.png" /></a>
+         </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <h1 class="logo">MAT&VIN</h1>
+    <div class="kontaktuppgifter">
+      <h2>Kontakta oss</h2>
+      <li><a>MAT&VIN@MAIL.SE</a></li>
+      <li><a>+467632121</a></li>
+      <li><a>Kodgatan 11b</a></li>
+    </div>
+
+    <div class="nyhetsbrev">NYHETSBREV:</div>
+    <div class="form-control">
+      <form>
+        <input type="text" name="Namn" placeholder="För- och efternamn" required />
+        <div class="form-control">
+          <input type="email" name="email" placeholder="Exempel@email.com" required />
+        </div>
+        <div class="form-control">
+          <input type="text" name="postadress" placeholder="Postadress" required />
+        </div>
+
+        <div class="form-control">
+          <input type="submit" name="skicka" placeholder="SKICKA" required />
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
