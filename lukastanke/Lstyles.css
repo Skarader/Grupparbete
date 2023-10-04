@@ -226,6 +226,74 @@ header {
 
 /*FISK-PAGE*/
 
+/*VIN-PAGE*/
+
+.vin-nyheter {
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 70%;
+}
+.vin-nyheter figure img {
+  height: 250px;
+}
+.main-vin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80%;
+  margin: 5rem auto;
+
+  background-color: gray;
+}
+.vin-page-title {
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 2px solid orange;
+}
+.vin {
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 1rem;
+  width: 90%;
+}
+.individuell-vin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+  margin: 2rem auto;
+}
+.vin-title {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.individuell-vin img {
+  height: 350px;
+  padding-bottom: 1.5rem;
+}
+.vin-info {
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 60%;
+}
+.vin-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 1.5rem;
+  width: 70%;
+  font-size: 1.3rem;
+  gap: 1rem;
+}
+/*VIN-PAGE*/
+
 /*INDIVIDUELLA RECEPT*/
 
 .individuellt-recept {
@@ -370,12 +438,33 @@ header {
   .card-picture img {
     width: 350px;
   }
+  .vin-nyheter {
+    width: 30%;
+  }
+  .vin-nyheter figure img {
+    margin: 1rem auto;
+    padding-top: 1rem;
+    height: 500px;
+    width: 150px;
+  }
+  .vin {
+    flex-direction: column;
+  }
+  .individuell-vin {
+    border-bottom: 2px solid orange;
+  }
 }
 
 @media (max-width: 600px) {
   .kontaktuppgifter {
     position: relative;
     left: 10px;
+  }
+  .vin-nyheter {
+    width: 50%;
+  }
+  .vin-nyheter figure img {
+    width: 100%;
   }
 }
 @media (max-width: 400px) {
