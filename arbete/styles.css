@@ -528,6 +528,9 @@ header {
 }
 
 @media (max-width: 600px) {
+  .welcome {
+    max-width: 100%;
+  }
   .kontaktuppgifter {
     position: relative;
     left: 10px;
@@ -538,6 +541,7 @@ header {
   .vin-nyheter figure img {
     width: 100%;
   }
+  
 }
 @media (max-width: 400px) {
   .footer {
