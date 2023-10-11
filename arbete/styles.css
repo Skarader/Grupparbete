@@ -83,7 +83,7 @@ header {
   display: none;
   position: absolute;
   top: 50px;
-  right: 20px;
+  right: 10px;
   background-color: #f9f9f9;
   min-width: 120px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -93,7 +93,7 @@ header {
 .dropdown-content a {
   display: block;
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 8px 0;
   text-decoration: none;
   border-bottom: 2px solid orange;
@@ -103,7 +103,6 @@ header {
   background-color: #f1f1f1;
 }
 
-/* Show dropdown when hovering over the hamburger menu */
 .header-mobile:hover .dropdown-content {
   display: block;
 }
@@ -541,7 +540,6 @@ header {
   .vin-nyheter figure img {
     width: 100%;
   }
-  
 }
 @media (max-width: 400px) {
   .footer {
